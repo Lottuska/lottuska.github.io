@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fi">
+    <head>
+        <!-- Metadata -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Esittely | Lotta Höglund</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <!-- Material Design Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="circle"></div>
+        <!-- Header and navigation -->
+        <header>
+            <div class="main-header">
+                <h1>Lotta Höglund</h1>
+                <p>Mediatekniikan opiskelija Jyväskylästä</p>
+            </div>
+            <nav>
+                <span class="material-icons mobile-menu" onclick="openMenu()">menu</span>
+                <div class="navigation">
+                    <span class="material-icons mobile-menu-close" onclick="closeMenu()">close</span>
+                    <ul>
+                        <li><a href="../index.html">Etusivu</a></li>
+                        <li class="dropdown"><a href="../portfolio/index.html">Portfolio <span class="material-icons expand"></span></a>
+                            <ul class="portfolio">
+                                <li><a href="../portfolio/kayttoliittymat/index.html">Käyttöliittymät</a></li>
+                                <li><a href="../portfolio/ohjelmointi/index.html">Ohjelmointi</a></li>
+                                <li><a href="../portfolio/graafinensuunnittelu/index.html">Graafinen suunnittelu</a></li>
+                                <li><a href="../portfolio/kuvitukset/index.html">Kuvitukset</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../esittely/index.html">Esittely</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Section -->
+        <section>
+            <div class="wrapper">
+                <div class="page-header">
+                    <h2>Esittely</h2>
+                </div>
+                <div class="two-columns">
+                    <div class="column">
+                        <div class="column-item left-side">
+                            <img src="../images/lotta_hoglund.jpg" alt="Kuva" class="profile-image">
+                            <p class="information">Lotta Höglund | 21 | Jyväskylä</p>
+                        </div>
+                        <div class="column-item left-side">
+                            <h3>Minusta</h3>
+                            <p class="about-me">
+                                Opiskelen toista vuotta tieto- ja viestintätekniikkaa Jyväskylän ammattikorkeakoulussa. Suuntaudun opinnoissani mediatekniikkaan ja tarkoituksenani on valmistua keväällä 2023.
+                                Mielenkiinnonkohteeni on erityisesti käyttöliittymissä ja niiden suunnittelussa ja toteutuksessa.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-item right-side">
+                            <h3>Osaaminen</h3>
+                                <div class="skills">
+                                        <ul class="left">
+                                            <li>Adobe Illustrator</li>
+                                            <li>Adobe InDesign</li>
+                                            <li>Adobe Photoshop</li>
+                                            <li>Blender</li>
+                                            <li>Bootstrap</li>
+                                            <li>CSS</li>
+                                            <li>Git-versionhallinta</li>
+                                            <li>HTML</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>Laravel</li>
+                                            <li>MySQL</li>
+                                            <li>PHP</li>
+                                            <li>Procreate</li>
+                                            <li>React</li>
+                                            <li>Sass</li>
+                                        </ul>
+                                        <ul class="right">
+                                            <li><progress id="AdobeIllustrator" value="25" max="100"> 25% </progress></li>
+                                            <li><progress id="AdobeInDesign" value="40" max="100"> 40% </progress></li>
+                                            <li><progress id="AdobePhotoshop" value="45" max="100"> 45% </progress></li>
+                                            <li><progress id="Blender" value="10" max="100"> 10% </progress></li>
+                                            <li><progress id="Bootstrap" value="40" max="100"> 40% </progress></li>
+                                            <li><progress id="CSS" value="70" max="100"> 70% </progress></li>
+                                            <li><progress id="Git-versionhallinta" value="15" max="100"> 15% </progress></li>
+                                            <li><progress id="HTML" value="80" max="100"> 80% </progress></li>
+                                            <li><progress id="JavaScript" value="45" max="100"> 45% </progress></li>
+                                            <li><progress id="jQuery" value="40" max="100"> 40% </progress></li>
+                                            <li><progress id="Laravel" value="20" max="100"> 20% </progress></li>
+                                            <li><progress id="MySQL" value="20" max="100"> 20% </progress></li>
+                                            <li><progress id="PHP" value="25" max="100"> 25% </progress></li>
+                                            <li><progress id="Procreate" value="50" max="100"> 50% </progress></li>
+                                            <li><progress id="React" value="5" max="100"> 5% </progress></li>
+                                            <li><progress id="Sass" value="60" max="100"> 60% </progress></li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <div class="column-item right-side">
+                            <h3>Mistä minut löytää?</h3>
+                            <div class="button-group centered-nomargin">
+                                <a href="https://github.com/Lottuska" target="_blank" class="basic-button">
+                                    <p>GitHub <span class="material-icons">launch</span></p>
+                                </a>
+                                <a href="https://codepen.io/Lottuska" target="_blank" class="basic-button">
+                                    <p>CodePen <span class="material-icons">launch</span></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>2021</p>
+        </footer>
+
+        <button onclick="backToTop()" class="back-to-top" title="Ylös"><span class="material-icons">arrow_upward</span></button>
+        
+        <!-- Script -->
+        <script src="../js/navigation.js"></script>
+        <script src="../js/backtotop.js"></script>
+    </body>
+</html>

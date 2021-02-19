@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fi">
+    <head>
+        <!-- Metadata -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kuvitukset | Lotta Höglund</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="../../css/style.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <!-- Material Design Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="circle"></div>
+        <!-- Header and navigation -->
+        <header>
+            <div class="main-header">
+                <h1>Lotta Höglund</h1>
+                <p>Mediatekniikan opiskelija Jyväskylästä</p>
+            </div>
+            <nav>
+                <span class="material-icons mobile-menu" onclick="openMenu()">menu</span>
+                <div class="navigation">
+                    <span class="material-icons mobile-menu-close" onclick="closeMenu()">close</span>
+                    <ul>
+                        <li><a href="../../index.html">Etusivu</a></li>
+                        <li class="dropdown"><a href="../../portfolio/index.html">Portfolio <span class="material-icons expand"></span></a>
+                            <ul class="portfolio">
+                                <li><a href="../../portfolio/kayttoliittymat/index.html">Käyttöliittymät</a></li>
+                                <li><a href="../../portfolio/ohjelmointi/index.html">Ohjelmointi</a></li>
+                                <li><a href="../../portfolio/graafinensuunnittelu/index.html">Graafinen suunnittelu</a></li>
+                                <li><a href="../../portfolio/kuvitukset/index.html">Kuvitukset</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../../esittely/index.html">Esittely</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Section -->
+        <section>
+            <div class="wrapper">
+                <div class="page-header">
+                    <h2>Kuvitukset</h2>
+                </div>
+                <div class="container">
+                    <!-- Open illustrations -->
+                    <div class="modal">
+                        <span class="material-icons close">close</span>
+                        <img class="modal-illustration">
+                    </div>
+                    <div class="illustration">
+                        <img src="images/donitsit.png" alt="Donitsit" class="image-cover">
+                        <p class="image-desc">Donitsit</p>
+                    </div>
+                    <div class="illustration">
+                        <img src="images/vuoret.jpg" alt="Vuorimaisema" class="image-cover">
+                        <p class="image-desc">Vuorimaisema</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>2021</p>
+        </footer>
+
+        <button onclick="backToTop()" class="back-to-top" title="Ylös"><span class="material-icons">arrow_upward</span></button>
+        
+        <!-- Script -->
+        <script src="../../js/navigation.js"></script>
+        <script src="../../js/modal.js"></script>
+        <script src="../../js/backtotop.js"></script>
+    </body>
+</html>
